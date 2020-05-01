@@ -1,0 +1,25 @@
+.keyboard__buton{
+    cursor: pointer;
+    padding: 15px 20px;
+    text-align: center;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    transition: 0.15s;
+
+}
+.keyboard__buton.value{
+    background: #D8D8D8;
+    color: #000000;
+}
+.keyboard__buton.action{
+    background: #B15E5E;
+    color: #FFFFFF;
+}
+.keyboard__buton.action:hover{
+    background-color: #D87272;
+}
+.keyboard__buton.value:hover{
+    background-color: #C3C3C3;
+}

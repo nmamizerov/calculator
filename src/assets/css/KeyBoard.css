@@ -1,0 +1,13 @@
+.keyboard{
+  width: 100%;
+  border-radius: 0px 0px 3px 3px;
+  overflow: hidden;
+  display: grid;  
+  /* grid-template-rows:  1fr 1fr 1fr 1fr;  */
+  grid-template-columns: 25% 25% 25% 25%; /* 3 строки */
+  grid-auto-flow: dense;
+  grid-gap: 1px;
+}
+.disabled{
+  pointer-events: none;
+}

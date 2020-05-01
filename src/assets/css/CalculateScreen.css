@@ -1,0 +1,28 @@
+.calculate-screen{
+    padding: 12px 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    
+
+    color: #FFFFFF;
+}
+.calculate-screen__buffer,  .calculate-screen__result{
+    float: right;
+    white-space: nowrap;
+}
+.screen-content{
+    width: 100%;
+    overflow: hidden;
+}
+.calculate-screen__buffer{
+    margin-bottom: 8px;
+    min-height: 21px;
+    font-size: 18px;
+    line-height: 21px;
+}
+.calculate-screen__result{
+    font-size: 21px;
+    line-height: 24px;
+    min-height: 24px;
+}
