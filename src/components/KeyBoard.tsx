@@ -16,7 +16,7 @@ export default class App extends Vue {
   public keyClickHandler(val: Object): void{
     this.$emit('sendValue', val);
   }
-  public createKeyBoard(): Array<JSX>{
+  public createKeyBoard(): Array<object>{
     
     return calcKeys.map(val=>{
       return <CalcButton keyObj={val} keyClick={this.keyClickHandler}/>;
